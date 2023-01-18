@@ -12,15 +12,19 @@ labels:
 
 <img width="400px" class="text-center p-4" src="../img/javaScript.png">
 
-## A new language, a new adventure.
+## Lost, changing course.
 
-Having just started my journey into the world of programming a little over a year ago, my knowledge in regards to JavaScript was at best, surface level. Other than the fact it was one of the core languages of web development I had assumed, just based on the name, JavaScript was similar to Java but with a more complex syntax system. After spending an entire year just to learn Java, you can imagine the intimidation and dread that I felt when we were told that we had to learn JavaScript within a week. However, to my surprise, JavaScript had quite the easy learning curve as the language. 
+As a newly highschool graduate, I had found myself in the same predicament as many of my peers - uncertain of my future career aspirations and lacking a clear sense of direction. Like many, I felt adrift and unsure of how to chart my own path. In the absence of a definitive plan, I made the decision to follow the wishes of my parents and pursue a career in nursing. However, after a full year of study at KCC and working as a home health aide, I found myself questioning whether this was truly the right path for me. Despite finding the work somewhat interesting, I felt unfulfilled and constantly questioned if I was making the right choice. It wasn't until my best friend insisted I would excel in computer science and urged me to take my first computer class, ICS 111, that I began to truly discover my passion for the field. Prior to this, I had never considered computer science as a viable career path for myself, as I believed that my academic abilities were not on par with those of my peers who were attending prestigious universities such as Harvard and MIT. However, after finding that initial course to be quite intriguing, I thought it wouldn't hurt to take a few more CS classes, using the excuse that it would be a useful elective as technology continues to play an increasingly important role in the future. This eventually snowballed to the point where I am now at UH Manoa, majoring in Computer Science.
 
-Unlike Java or C/C++, JavaScript’s minimalist nature offers a considerable level of flexibility and dynamicness not seen in the aforementioned languages. This flexibility is most noticeable in how JavaScript handles variable declarations. As a loosely typed language, variables do not need to be strictly declared in advance with the appropriate data type, such as “int,” “bool,” or “string.” Instead, types are automatically assigned to variables during run-time depending on the type of data being fed into them. This feature alone made coding much more fluid and less frustrating. Another example of JavaScript’s flexibility and simplicity can be seen in its special syntax “destructing assignment.” Destructuring assignment is a powerful tool that allows for the extraction and assignment of data from arrays and objects. As this can be done with a single line, it makes coding much more concise and readable. In my opinion, JavaScript’s simplistic and intuitive design offers a considerable level of flexibility and freedom, thereby making it a good language for beginners who are just starting their journey into the world of coding to get their feet wet. 
+
+
+
+
+
 
 <img width="400px" class="text-center p-4" src="../img/keyboard_workout.jpg">
 
-## TypeFit: Javascript gains with Athletic Software Engineering
+## New Horizons
 
 For this semester, I've swapped out my usual crossfit routine for a new exercise: hitting the keyboard. Forget about arm and leg day, it's time for finger and brain day. The term WOD, or workout of the day, comes crossfit and typically involves a series of short, intense workouts that include a variety of functional movements such as weightlifting, gymnastics, and cardiovascular exercises. Our class has taken this concept and has modified the WODs in such a way that students are expected to exercise one or more computer skills in an effective and efficient manner. Honestly, when I heard that WODs were graded based on time I had a mild panic attack because a major weakness of mine is being able to quickly and efficiently produce working code under a time limit. However, after this first week of WODs, I found that, while stressful, the WODs were an excellent opportunity to test my current level of comprehension and allowed me to solidify and put into practice the knowledge that I learned at FreeCodeCamp.
 
