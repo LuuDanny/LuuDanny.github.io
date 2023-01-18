@@ -49,6 +49,4 @@ public void hunt(Pokemon p) {
 ```
 
 
-This project was a new and exciting experience for me as I had never worked with GUI before. In addition to developing a better understanding of Java, I leared how to utilize Swing in order to create and manipulate graphical user interface elements such as buttons, text fields, and images in such a manner to produce an elegant and user friendly GUI. It was a challenging task but I enjoyed every bit of it and I am proud of what I was able to achieve.
-
 Source : [GitHub](https://github.com/LuuDanny/Pokemon-GUI).
