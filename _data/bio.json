@@ -39,6 +39,15 @@
       "endDate": "Present",
       "courses": [
       ]
+    },
+    {
+      "institution": "Kapiolani Community College, Honolulu, HI",
+      "area": "Information Technology",
+      "studyType": "A.S.",
+      "startDate": "2020",
+      "endDate": "2022",
+      "courses": [
+      ]
     }
   ],
   "work": [
@@ -56,15 +65,16 @@
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "Attention Plus Care",
+      "position": "Home Health Aide",
+      "website": "https://www.attentionplus.com/",
+      "startDate": "2019-05-01",
+      "endDate": "2020-08-01",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Developed strong and trusting rapport with patients to facilitate smooth, quality care",
+        "Monitored client behaviors and emotional states, reporting concerns to case manager and documenting information in files",
+        "Supported field staff, patients and families in dealing with clinical issues and concerns"
       ]
     }
   ],
