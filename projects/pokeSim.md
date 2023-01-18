@@ -45,7 +45,7 @@ public void hunt(Pokemon p) {
             + "\n\n   Weight: " + p.getWeight()
             + "\n\n   HP: " + p.getHP() 
             + "\n\n   CP: " + p.getCP() + "\n");
-   }
+}
 ```
 
 
