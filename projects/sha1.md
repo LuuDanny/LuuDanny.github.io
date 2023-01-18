@@ -18,7 +18,7 @@ summary: "An implemention of the NIST Secure Hash Algorithm (SHA-1) using c for 
 
 ## What is SHA-1
 
-Pokemon Go is a mobile game developed by Niantic, in which players use their mobile device's GPS to locate, capture, battle, and train virtual creatures called Pokemon. The objective of this project was to utilize Java in order to create a Graphical User Interface (GUI) that emulates the search and capture features of Pokemon Go in a manner reminiscent of the base Pokemon games. Additionally, the implementation of additional features such as a "Pokedex" and "Backpack" were necessary.  The Pokedex would serve as a record-keeping mechanism that maintains information pertaining to any spotted Pokemon, including the number of instances they have been either spotted or captured. The Backpack, on the other hand, would be responsible for storing information about the Pokemon that have been successfully captured, and would provide a selection of 5 different sorting options. In order to ensure scalability and flexibility, the Pokemon objects must be implemented in a manner that allows for easy addition of new Pokemon.
+The goal of this project was to produce an implementation of the deprecated SHA-1 (Secure Hash Algorithm 1) cryptographic hash function in C that was able to take in and encrypt text files. SHA-1, developed by the National Security Agency (NSA), was a widely adopted cryptographic hash function that was designed to take an input (or "message") and produce a fixed-size output, commonly referred to as a "hash." It was widely utilized in various security protocols and applications, such as digital signatures, software protection, and file integrity verification. However, due to recent advancements in the field of cryptography and the discovery of collision vulnerabilities, its usage has been officially deprecated by the National Institute of Standards and Technology (NIST) in 2011. Despite being considered as a broken hash function, this project aimed to demonstrate the inner workings of the algorithm and its usage for educational and research purposes.
 
 ## Responsibilities
 
@@ -55,4 +55,4 @@ unsigned int f(unsigned int t, unsigned int B, unsigned C, unsigned D){
 ```
 
 
-Source : [GitHub](https://github.com/LuuDanny/Pokemon-GUI).
+Source : [GitHub](https://github.com/LuuDanny/SHA1-Implementation-in-C).
