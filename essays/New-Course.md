@@ -18,4 +18,4 @@ As a newly highschool graduate, I had found myself in the same predicament as ma
 
 ## Hopes
 
-Having just transfered over to UH last semester, ICS 314 will be my first upper level ICS course specically related to coding and programming. In regards to what I hope I can get out of this class, I hope
+Having just transfered over to UH last semester, ICS 314 will be my first upper level ICS course specically related to coding and programming. In regards to what I hope I can get out of this class, after looking through the course modules, my goal for this semester is to expand my knoweldge and skill, of which I have very little, into the realm of web development. Specically, I would like to learn how to produce a clear, responsive, and user friendly website while also gaining mastery over tools such as React, Meteor, and Bootstrap 5.
