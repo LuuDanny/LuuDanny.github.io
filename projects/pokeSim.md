@@ -6,9 +6,8 @@ title: "Pokemon"
 date: 2015
 published: true
 labels:
-  - Robotics
-  - Arduino
-  - C++
+  - Java
+  - Gui
 summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
 ---
 
