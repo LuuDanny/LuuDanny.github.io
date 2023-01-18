@@ -7,7 +7,7 @@ date: 2021
 published: true
 labels:
   - Java
-  - Gui
+  - GUI
   - jGrasp
 summary: "My team and I developed a Graphical User Interface (GUI) that emulates the hunt, catch, and pokedex features of Pokemon Go."
 ---
