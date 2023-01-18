@@ -18,6 +18,7 @@ Having just started my journey into the world of programming a little over a yea
 
 Unlike Java or C/C++, JavaScript’s minimalist nature offers a considerable level of flexibility and dynamicness not seen in the aforementioned languages. This flexibility is most noticeable in how JavaScript handles variable declarations. As a loosely typed language, variables do not need to be strictly declared in advance with the appropriate data type, such as “int,” “bool,” or “string.” Instead, types are automatically assigned to variables during run-time depending on the type of data being fed into them. This feature alone made coding much more fluid and less frustrating. Another example of JavaScript’s flexibility and simplicity can be seen in its special syntax “destructing assignment.” Destructuring assignment is a powerful tool that allows for the extraction and assignment of data from arrays and objects. As this can be done with a single line, it makes coding much more concise and readable. In my opinion, JavaScript’s simplistic and intuitive design offers a considerable level of flexibility and freedom, thereby making it a good language for beginners who are just starting their journey into the world of coding to get their feet wet. 
 
+<img width="400px" class="rounded float-start pe-4" src="../img/keyboard_workout.jpg">
 
 ## TypeFit: Javascript gains with Athletic Software Engineering
 
