@@ -9,7 +9,7 @@ labels:
   - Java
   - Gui
   - jGrasp
-summary: "My team developed a GUI that emulates the hunt, catch, and pokedex features of Pokemon Go."
+summary: "My team and I developed a Graphical User Interface (GUI) that emulates the hunt, catch, and pokedex features of Pokemon Go."
 ---
 
 <div class="text-center p-4">
