@@ -18,7 +18,7 @@ summary: "My team and I developed a text based game that emulates the combat sys
 
 ## What is Pokemon GUI
 
-Pokemon Go is a mobile game developed by Niantic, in which players use their mobile device's GPS to locate, capture, battle, and train virtual creatures called Pokemon. The objective of this project was to utilize Java in order to create a Graphical User Interface (GUI) that emulates the search and capture features of Pokemon Go in a manner reminiscent of the base Pokemon games. Additionally, the implementation of additional features such as a "Pokedex" and "Backpack" were necessary.  The Pokedex would serve as a record-keeping mechanism that maintains information pertaining to any spotted Pokemon, including the number of instances they have been either spotted or captured. The Backpack, on the other hand, would be responsible for storing information about the Pokemon that have been successfully captured, and would provide a selection of 5 different sorting options. In order to ensure scalability and flexibility, the Pokemon objects must be implemented in a manner that allows for easy addition of new Pokemon.
+Pokemon is a popular media franchise centered around fictional creatures called "Pokemon", which humans, known as Pokemon Trainers, catch and train to battle each other for sport. Our goal is to create a text-based implementation of the Pokemon battle system using Java. Our program boasts an authentic battle system that closely simulates the gameplay mechanics of the classic Pokemon games. This includes the incorporation of fast attacks, special attacks, and energy-building mechanics, providing players with a truly immersive experience. Additionally, the program features a minimum of 13 different Pokemon, with the capability of easily implementing new Pokemon in the future. 
 
 ## Responsibilities
 
@@ -30,23 +30,40 @@ This project presented a unique opportunity for me to expand my knowledge and ex
 
 ## Sample Code
 
-Here is some code of a helper function that updates the pokedex and text fields depending on the Pokemon that has been spotted:
+Here is some code of a helper function that offers players the choice to reselect their pokemon if they so choose so:
 
 ```java
-public void hunt(Pokemon p) {
-      pokedexBST.seen(p);
-      textArea.setText("  A wild " + p.getSpecies() + " has appeared!" 
-            + HUNTMSG + CATCHMSG);
+ public static Pokemon reChoose(Pokemon p) {
       
-      textArea2.setText("   Number: " + p.getNumber()
-            + "\n\n   Species: " + p.getSpecies() 
-            + "\n\n   Type: " + p.getType()
-            + "\n\n   Height: " + p.getHeight() 
-            + "\n\n   Weight: " + p.getWeight()
-            + "\n\n   HP: " + p.getHP() 
-            + "\n\n   CP: " + p.getCP() + "\n");
+      boolean reChoose = true;
+      String yesNo = "";
+      Pokemon poke = p;
+      Scanner userIn = new Scanner(System.in);
+      
+      while (reChoose) {
+         System.out.println("Would you like to reroll your pokemon? Y/N");
+         yesNo = userIn.nextLine();
+         yesNo = yesNo.toUpperCase().trim();
+         
+         // Switch based on player's choise
+         switch (yesNo) {
+            case "Y": //Reroll Pokemon
+               poke = choosePokemon(); 
+               System.out.println(poke);          
+               break;
+            case "N": //Keep Pokemon
+               reChoose = false;
+               break;
+            default: //Invalid choice
+               System.out.println("\n=======Invalid Menu Choice=======");
+               System.out.println("Please enter Y/N");
+               System.out.println("=================================\n");
+               break;
+         } // Closes Switch
+      } // Closes while loop
+      return poke;
 }
 ```
 
 
-Source : [GitHub](https://github.com/LuuDanny/Pokemon-GUI).
+Source : [GitHub](https://github.com/LuuDanny/Pokemon-PvP).
