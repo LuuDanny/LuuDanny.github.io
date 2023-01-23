@@ -23,16 +23,22 @@ In their essay, How To Ask Questions The Smart Way, Eric S. Raymond and Rick Moe
 1. Use meaningful, specific subject headers.
    - When users are scrolling through the forums, the first thing that they will notice is your header. Everyone knows that you need help and so in most cases including lines like "Urgent" or "Help Me" will only be counterproductive as you end up attracting their ire and turn off any potential helpers. Having a meaningful header will allow users to quickly have a general understanding of your situation and make the determination of whether or not their expertise would be helpful.  
 2. Don't post screen-shots, copy and paste instead.
-  - If you are experiencing issues with your code, rather than posting a screen-shot, it is much better to copy and paste the code as most people do not want to waste their time hand-writing your code. By purposely making your code difficult to access, you are like to receive responses the provide general solutions or ones that scorn you for not properly posting your code. 
+   - If you are experiencing issues with your code, rather than posting a screen-shot, it is much better to copy and paste the code as most people do not want to waste their time hand-writing your code. By purposely making your code difficult to access, you are like to receive responses the provide general solutions or ones that scorn you for not properly posting your code. 
 3. Accurately detail your problem in a clear and consise manner.
-  - When describing your problem, it is important that you provide detailed information about what the issue is, what environment you are using, what research have you already done, and what diagontics steps have you taken. Doing so demonstrates that you actually did you homework and will allows user's to replicate your error and provide a helpful solution. Of course, being accurate does not mean writing a 5 page essay about the issue as no one has the time or is willing to put in the effort to read your question.
+   - When describing your problem, it is important that you provide detailed information about what the issue is, what environment you are using, what research have you already done, and what diagontics steps have you taken. Doing so demonstrates that you actually did you homework and will allows user's to replicate your error and provide a helpful solution. Of course, being accurate does not mean writing a 5 page essay about the issue as no one has the time or is willing to put in the effort to read your question.
 4. Don't post homework.
-  - While StackOverflow exists to help programmers learn, it does not mean that it is okay to be asking for the complete solution to a homework problem. Instead, it is better to put in the effort to solve the problem on your own and ask for help when a specific issue or error occurs in your work. User can easily spot if a question is a homework question and, in such a case, are quite likely to down vote and offer harsh criticism. 
+   - While StackOverflow exists to help programmers learn, it does not mean that it is okay to be asking for the complete solution to a homework problem. Instead, it is better to put in the effort to solve the problem on your own and ask for help when a specific issue or error occurs in your work. User can easily spot if a question is a homework question and, in such a case, are quite likely to down vote and offer harsh criticism. 
 
 5. Be respectful.
-  - At the end of the day, you are not entitled to receive any help and any help that you do receive is voluntary. If you cannot properly demonstrate respect, how can you ever others to reciprocate the same. 
+   - At the end of the day, you are not entitled to receive any help and any help that you do receive is voluntary. If you cannot properly demonstrate respect, how can you ever others to reciprocate the same. 
 
 ## What a "Smart" Question Looks Like
+
+```
+Q: 
+
+
+```
 
 ## What a "Stupid" Question Looks Like
 
