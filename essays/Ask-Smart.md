@@ -26,39 +26,28 @@ In their essay, How To Ask Questions The Smart Way, Eric S. Raymond and Rick Moe
   - If you are experiencing issues with your code, rather than posting a screen-shot, it is much better to copy and paste the code as most people do not want to waste their time hand-writing your code. By purposely making your code difficult to access, you are like to receive responses the provide general solutions or ones that scorn you for not properly posting your code. 
 3. Accurately detail your problem in a clear and consise manner.
   - When describing your problem, it is important that you provide detailed information about what the issue is, what environment you are using, what research have you already done, and what diagontics steps have you taken. Doing so demonstrates that you actually did you homework and will allows user's to replicate your error and provide a helpful solution. Of course, being accurate does not mean writing a 5 page essay about the issue as no one has the time or is willing to put in the effort to read your question.
-4. Be respectful.
+4. Don't post homework.
+  - While StackOverflow exists to help programmers learn, it does not mean that it is okay to be asking for the complete solution to a homework problem. Instead, it is better to put in the effort to solve the problem on your own and ask for help when a specific issue or error occurs in your work. User can easily spot if a question is a homework question and, in such a case, are quite likely to down vote and offer harsh criticism. 
+
+5. Be respectful.
   - At the end of the day, you are not entitled to receive any help and any help that you do receive is voluntary. If you cannot properly demonstrate respect, how can you ever others to reciprocate the same. 
 
-## What a Smart Question looks like
+## What a "Smart" Question Looks Like
+
+## What a "Stupid" Question Looks Like
+
+Now that we've seen what a "Smart" question looks like, lets see one that completely disregards rules and exhibits signs of being a "Stupid" question. The following example, an author is asking for a solution to what appears to be a homework problem.
 
 ```
-Q: python date of the previous month
+Q: Calculate the amount of money that each person has
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
-
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
-
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
+There is a two-dimensional array in which numbers are stored. Each line is an investment/withdrawal of sums of money to the bank 
+by one person (if I eat, then the number is negative), each contribution /withdrawal is stored in a separate cell. 
+// Calculate the amount of money that each person has and display a list of amounts by sorting it from a larger amount to a 
+   smaller one. 
+// Set the values to demonstrate the calculations yourself.
 ```
+Link to Thread: [StackOverflow](https://stackoverflow.com/questions/75207035/calculate-the-amount-of-money-that-each-person-has)
 
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+In this post, the author clearly demonstrates a lack research, effort, or attempt to solve the solution on their own. Rather than posting their own code and asking for help on why their code wasn't producing the correct output, the user had typed the entire question clearly expecting someone to provide a complete answer. 
+Furthermore when looking at the comments, we also see that other users were able to identify this as a homework question as one person wrote "this looks like a homework exercise and displays no effort."
