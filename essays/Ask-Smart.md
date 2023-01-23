@@ -47,7 +47,8 @@ Now that we've seen what a "Smart" question looks like, lets see one that comple
 ```
 Q: Calculate the amount of money that each person has
 
-There is a two-dimensional array in which numbers are stored. Each line is an investment/withdrawal of sums of money to the bank by one person (if I eat, then the number is negative), each contribution /withdrawal is stored in a separate cell. 
+There is a two-dimensional array in which numbers are stored. Each line is an investment/withdrawal of sums of money to the bank by one person (if I eat, then the 
+number is negative), each contribution /withdrawal is stored in a separate cell. 
 // Calculate the amount of money that each person has and display a list of amounts by sorting it from a larger amount to a smaller one. 
 // Set the values to demonstrate the calculations yourself.
 ```
