@@ -16,7 +16,7 @@ I’m sure we've all encountered a problem at some point in our lives that we co
 
 ## What is the Smart Way?
 
-Often, when asking questions on popular forums like StackOverflow, it isn’t uncommon to find yourself on the receiving end of some hostile comments. You may come to the conclusion that all “hackers” are simply rude and condescending; however, the more likely cause may simply be in the way in which your question was asked. It’s important to understand these public forums are largely volunteer work and thus in order to receive sincere feedback, you have to demonstrate that you actually put in effort to understand the problem and have a clear idea of what you want by asking “smart” questions.
+Often, when asking questions on popular forums like StackOverflow, it isn’t uncommon to find yourself on the receiving end of some harsh comments. You may come to the conclusion that all users are simply rude and condescending; however, the more likely cause may simply be in the way in which your question was asked. It’s important to understand these public forums are largely volunteer work and thus in order to receive sincere feedback, you have to demonstrate that you actually put in effort to understand the problem and have a clear idea of what you want by asking “smart” questions.
 
 In their essay, How To Ask Questions The Smart Way, Eric S. Raymond and Rick Moen outline several characteristics that make a question “smart” vs “stupid.” 
 
