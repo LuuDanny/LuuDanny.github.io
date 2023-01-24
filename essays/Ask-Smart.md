@@ -10,7 +10,7 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/good-questions.jpg">
 
 I’m sure we've all encountered a problem at some point in our lives that we couldn't solve on our own. After struggling for hours and trying to find a solution through brute force, it's natural to turn to Google for help and hope that someone has already encountered a similar situation. However, what happens when none of the results are applicable to our situation or our situation is entirely unique and no one has asked the question yet? At this point, the best course of action is to simply ask for help, as our teachers often said, "there is no such thing as a stupid question." Unfortunately, they never told us that there were “stupid” ways and “smart” ways of asking questions. 
 
@@ -84,3 +84,7 @@ Link to Thread: [StackOverflow](https://stackoverflow.com/questions/75207035/cal
 
 In this post, the author clearly demonstrates a lack research, effort, or attempt to solve the solution on their own. Rather than posting their own code and asking for help on why their code wasn't producing the correct output, the user had typed the entire question clearly expecting someone to provide a complete answer. 
 Furthermore when looking at the comments, we also see that other users were able to identify this as a homework question as one person wrote "this looks like a homework exercise and displays no effort."
+
+## Final Thoughts
+
+Asking questions online can be intimidating for some individuals, as no one wants to be berated or criticized for not knowing something. However, it is important to recognize that asking questions is essential part learning and growth in any field, especially software engineering. As the our field continues to grow and evolve we will inevitably encounter situations in which we are unable to resolve a problem on our own. At such times, it's crucial to be able to ask questions and find answers in an effective manner to overcome these obstacles. Asking "smart" questions not only helps mitigate any harsh backlash from online forums but also  increase you chances of receiving useful feedback in a more timely manner. 
