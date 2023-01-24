@@ -34,15 +34,43 @@ In their essay, How To Ask Questions The Smart Way, Eric S. Raymond and Rick Moe
 
 ## What a "Smart" Question Looks Like
 
-```
-Q: 
-
+In the following example, the author is asking for an alternate method in python to iterate over multiple lists simultaneously.
 
 ```
+Q: How do I iterate through two lists in parallel?
+
+I have two iterables, and I want to go over them in pairs:
+    __________________________________________
+    foo = [1, 2, 3]
+    bar = [4, 5, 6]
+
+    for (f, b) in iterate_together(foo, bar):
+        print("f:", f, " |  b:", b)
+    __________________________________________
+    
+That should result in:
+    __________________________________________
+    f: 1  |  b: 4
+    f: 2  |  b: 5
+    f: 3  |  b: 6
+    __________________________________________
+
+One way to do it is to iterate over the indices:
+    __________________________________________
+    for i in range(len(foo)):
+        print("f:", foo[i], " |  b:", bar[i])
+    __________________________________________
+
+But that seems somewhat unpythonic to me. Is there a better way to do it?
+
+```
+Link to Thread: [StackOverflow](https://stackoverflow.com/questions/1663807/how-do-i-iterate-through-two-lists-in-parallel)
+
+In the post we can see that the author is clearly describing the goal the of their question, which is to find a method to iterate over multiple lists simultaneously. However, what sets their question apart many others is that they explicitly mention and provide an demonstration of an implementation that already works and are specifically asking for a more efficient or "pythonic" method using Python's built-in functions. With 1202 upvotes, it's clear that many users found the question well-researched and appreciated the effort put in. As a result, the author was provided with an alternate solution using the zip() function.
 
 ## What a "Stupid" Question Looks Like
 
-Now that we've seen what a "Smart" question looks like, lets see one that completely disregards rules and exhibits signs of being a "Stupid" question. The following example, an author is asking for a solution to what appears to be a homework problem.
+Now that we've seen what a "Smart" question looks like, lets see one that completely disregards rules and exhibits signs of being a "Stupid" question. In the following example, the author is asking for a solution to what appears to be a homework problem.
 
 ```
 Q: Calculate the amount of money that each person has
