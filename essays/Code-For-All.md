@@ -10,7 +10,7 @@ labels:
   - ESLint
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/good-questions.jpg">
+<img width="300px" class="rounded float-start pe-4" src="../img/eslint.png">
 
 ## A change of heart
 
@@ -21,4 +21,4 @@ It wasn’t until I first had a collaborative project with another person, did I
 
 ## Javascript with style
 
-Asking questions online can be intimidating for some individuals, as no one wants to be berated or criticized for not knowing something. However, it is important to recognize that asking questions is essential part learning and growth in any field, especially software engineering. As the our field continues to grow and evolve we will inevitably encounter situations in which we are unable to resolve a problem on our own. At such times, it's crucial to be able to ask questions and find answers in an effective manner to overcome these obstacles. Asking "smart" questions not only helps mitigate any harsh backlash from online forums but also  increase you chances of receiving useful feedback in a more timely manner. 
+Prior to ESLint, I would always have to manually go through and verify each line of code in order to determine whether there was a formatting error in my code; such tasks were not only monotonous but also very time consuming. But now, with ESLint, all I have to do is look at the magical green check mark to quickly know whether or not my code is following all the coding standards. Furthermore, one of my personal favorite parts of ESLint is that it actually provides clear explanations on exactly what kind of errors I am making. Truly a godsend, I only wish I had known about such a wonderful tool more early on into my coding journey. 
