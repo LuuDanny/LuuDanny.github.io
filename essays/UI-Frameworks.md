@@ -10,7 +10,7 @@ labels:
   - UI Framework
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/bootstrap5.png">
+<img width="300px" class="rounded text-center pe-4" src="../img/bootstrap5.png">
 
 ## UI Frameworks
 
@@ -22,9 +22,9 @@ At first glance, UI Frameworks like Bootstrap 5 may seem like an unnecessary com
 In my first experience with HTML / CSS and Bootstrap 5, I had to create a web page that detailed the history of various web browsers. When trying to design the entire page using raw HTML / CSS, I quickly realized that when I changed the browser size my page contents would not automatically adjust according to the new dimensions. After switching over to Bootstrap 5, I found that my problem was easily solved after just wrapping all of the contents with a div tag and giving it the container class. Although simple, this one design demonstrated to me the power of using UI frameworks, Bootstrap 5 in particular. Rather than spending the time and effort of manually coding out the style specification for various screen sizes and host devices, I can simply use a pre-built class and move on to the next design component of my page.
 
 Raw HTML / CSS :
-<img height="300px" class="rounded float-start pe-4" src="../img/bh-raw-html-css.jpg">
+<img height="300px" class="rounded text-start pe-4" src="../img/bh-raw-html-css.jpg">
 
 Bootstrap 5 :
-<img height="300px" class="rounded float-start pe-4" src="../img/bh-bootstrap5.jpg">
+<img height="300px" class="rounded text-start pe-4" src="../img/bh-bootstrap5.jpg">
 
 Overall, while UI frameworks like Bootstrap 5 do require an investment of time and effort to learn, they ultimately offer a number of software engineering benefits. By using pre-built components, developers can save time and create consistent and visually appealing designs. Even though it is certainly possible to build web applications using raw HTML and CSS, doing so is more time-consuming and error-prone, especially when working on larger projects with complex requirements. It is for these reasons, I would highly recommend that any software developer who is serious about building a user friendly and responsive UI should consider learning and using a UI framework like Bootstrap 5.
