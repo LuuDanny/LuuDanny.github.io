@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Pokemon GUI | Danny Luu | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/LuuDanny.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Danny Luu | Professional Portfolio">
+    <meta property="og:url" content="https://LuuDanny.github.io/projects/pokeGui.html">
+    <meta property="og:title" content="Pokemon GUI | Danny Luu | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/LuuDanny.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Pokemon GUI | Danny Luu | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Danny Luu</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Pokemon GUI</h1>
+ <div class="text-center p-4">
+  <img width="350px" src="../img/pokeGUI/pokeGui.jpg" class="img-thumbnail" />
+</div>
+
+<h2 id="what-is-pokemon-gui">What is Pokemon GUI</h2>
+
+<p>Pokemon Go is a mobile game developed by Niantic, in which players use their mobile device’s GPS to locate, capture, battle, and train virtual creatures called Pokemon. The objective of this project was to utilize Java in order to create a Graphical User Interface (GUI) that emulates the search and capture features of Pokemon Go in a manner reminiscent of the base Pokemon games. Additionally, the implementation of additional features such as a “Pokedex” and “Backpack” were necessary.  The Pokedex would serve as a record-keeping mechanism that maintains information pertaining to any spotted Pokemon, including the number of instances they have been either spotted or captured. The Backpack, on the other hand, would be responsible for storing information about the Pokemon that have been successfully captured, and would provide a selection of 5 different sorting options. In order to ensure scalability and flexibility, the Pokemon objects must be implemented in a manner that allows for easy addition of new Pokemon.</p>
+
+<h2 id="responsibilities">Responsibilities</h2>
+
+<p>As the lead programmer for this project, I was tasked with the responsibility of designing and implementing the various functionalities and assets of the Graphical User Interface (GUI). To begin, I constructed a parent Pokemon class from which all other Pokemons were derived, as well as several “type” interfaces that were implemented by the Pokemons based on their specific characteristics. After creating the necessary assets for the Pokemons and their types, I moved on to conceptualizing the overall layout of the GUI through a design sketch. Utilizing the Swing library, a powerful toolkit for GUI development in Java, I crafted a visually pleasing and user-friendly interface by implementing a card layout structure that clearly separated the Pokemon, Pokedex, and Backpack features into distinct and independent fields.</p>
+
+<h2 id="lessons">Lessons</h2>
+
+<p>This project presented a unique opportunity for me to expand my knowledge and expertise in the realm of Java programming, specifically in the area of graphical user interface (GUI) development. As a novice in this field, I was challenged to familiarize myself with the intricacies of utilizing the Swing library to create and manipulate various graphical elements, such as buttons, text fields, and images. Through this process, I was able to develop a comprehensive understanding of how to design and implement an elegant and user-friendly GUI. Despite the challenges I faced, I found the experience to be intellectually stimulating and immensely fulfilling. I am proud of the final outcome of this project and the skills and knowledge I have gained through this experience.</p>
+
+<h2 id="sample-code">Sample Code</h2>
+
+<p>Here is some code of a helper function that updates the pokedex and text fields depending on the Pokemon that has been spotted:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kt">void</span> <span class="nf">hunt</span><span class="o">(</span><span class="nc">Pokemon</span> <span class="n">p</span><span class="o">)</span> <span class="o">{</span>
+      <span class="n">pokedexBST</span><span class="o">.</span><span class="na">seen</span><span class="o">(</span><span class="n">p</span><span class="o">);</span>
+      <span class="n">textArea</span><span class="o">.</span><span class="na">setText</span><span class="o">(</span><span class="s">"  A wild "</span> <span class="o">+</span> <span class="n">p</span><span class="o">.</span><span class="na">getSpecies</span><span class="o">()</span> <span class="o">+</span> <span class="s">" has appeared!"</span> 
+            <span class="o">+</span> <span class="no">HUNTMSG</span> <span class="o">+</span> <span class="no">CATCHMSG</span><span class="o">);</span>
+      
+      <span class="n">textArea2</span><span class="o">.</span><span class="na">setText</span><span class="o">(</span><span class="s">"   Number: "</span> <span class="o">+</span> <span class="n">p</span><span class="o">.</span><span class="na">getNumber</span><span class="o">()</span>
+            <span class="o">+</span> <span class="s">"\n\n   Species: "</span> <span class="o">+</span> <span class="n">p</span><span class="o">.</span><span class="na">getSpecies</span><span class="o">()</span> 
+            <span class="o">+</span> <span class="s">"\n\n   Type: "</span> <span class="o">+</span> <span class="n">p</span><span class="o">.</span><span class="na">getType</span><span class="o">()</span>
+            <span class="o">+</span> <span class="s">"\n\n   Height: "</span> <span class="o">+</span> <span class="n">p</span><span class="o">.</span><span class="na">getHeight</span><span class="o">()</span> 
+            <span class="o">+</span> <span class="s">"\n\n   Weight: "</span> <span class="o">+</span> <span class="n">p</span><span class="o">.</span><span class="na">getWeight</span><span class="o">()</span>
+            <span class="o">+</span> <span class="s">"\n\n   HP: "</span> <span class="o">+</span> <span class="n">p</span><span class="o">.</span><span class="na">getHP</span><span class="o">()</span> 
+            <span class="o">+</span> <span class="s">"\n\n   CP: "</span> <span class="o">+</span> <span class="n">p</span><span class="o">.</span><span class="na">getCP</span><span class="o">()</span> <span class="o">+</span> <span class="s">"\n"</span><span class="o">);</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>Source : <a href="https://github.com/LuuDanny/Pokemon-GUI">GitHub</a>.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

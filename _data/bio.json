@@ -1,0 +1,94 @@
+{
+  "basics": {
+    "name": "Danny Luu",
+    "label": "Computer Science Student",
+    "picture": "https://github.com/LuuDanny.png",
+    "email": "luudanny@hawaii.edu",
+    "phone": "808-931-9210",
+    "website": "https://LuuDanny.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2025.",
+    "location": { "address": "", "postalCode": "96826", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "LuuDanny", "url": "https://github.com/LuuDanny" },
+      { "network": "linkedin", "username": "Danny Luu", "url": "https://www.linkedin.com/in/luu-danny/" },
+      { "network": "instagram", "username": "lanny.duu", "url": "https://www.instagram.com/lanny.duu/" }
+    ]
+  },
+  "interests": [
+    { "name": "Cyber Security" },
+    { "name": "Artificial Intelligence" },
+    { "name": "Crypto" },
+    { "name": "Fitness" },
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "HTML", "C", "C++", "Java", "Javascript" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Windows", "Git/GitHub" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2022-08-22",
+      "endDate": "Present",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Kapiolani Community College, Honolulu, HI",
+      "area": "Information Technology",
+      "studyType": "A.S.",
+      "startDate": "2020",
+      "endDate": "2022",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "UH Information Technology Services",
+      "position": "Information Technology Consultant",
+      "website": "http://www.hawaii.edu/its/",
+      "startDate": "2022-01-21",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Responded to client requests for technical support via email, live chat, and telephone",
+        "Performed various diagnostic and troubleshooting tests, resolving a wide range of software, hardware and network issues",
+        "Monitored, tracked and documented network and systems operations"
+      ]
+    },
+    {
+      "company": "Attention Plus Care",
+      "position": "Home Health Aide",
+      "website": "https://www.attentionplus.com/",
+      "startDate": "2019-05-01",
+      "endDate": "2020-08-01",
+      "summary": "",
+      "highlights": [
+        "Developed strong and trusting rapport with patients to facilitate smooth, quality care",
+        "Monitored client behaviors and emotional states, reporting concerns to case manager and documenting information in files",
+        "Supported field staff, patients and families in dealing with clinical issues and concerns"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Transfer Merit Scholarship",
+      "date": "2022-Present",
+      "awarder": "State of Hawaii",
+      "summary": "Scholarship awarded to students transfering from a UH System Community College with a minimum overall GPA of 3.3."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
