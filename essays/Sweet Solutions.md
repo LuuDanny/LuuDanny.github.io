@@ -9,9 +9,9 @@ labels:
   - Design Patterns
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/cookie.png">
-
 ## To Cookies or Not To Cookie
+
+<img width="300px" class="rounded pe-4" src="../img/cookie.png">
 
 In the realm of software development, we often find ourselves in a digital kitchen, mixing ingredients to create delectable programs that meet specific requirements. Picture yourself in a kitchen, about to bake a batch of digital cookies for a project. You have a variety of cookie cutters at your disposal, each designed to create a specific shape with precision and ease. Just as these cookie cutters save time and energy by eliminating the need to handcraft each cookie, design patterns streamline the coding process, allowing us to craft consistent, high-quality products with minimal effort. They act as the "cookie cutters" of the coding world, each tailored for a specific purpose, enabling developers to create efficient, maintainable, and flexible code with ease.
 
