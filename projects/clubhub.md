@@ -13,7 +13,7 @@ summary: "A web application designed to connect and engage UH Mānoa students wi
 ---
 
 <div class="text-center p-4">
-  <img width="350px" src="../img/clubhub/clubHome.png" class="img-thumbnail" >
+  <img height="500px" src="../img/clubhub/clubHome.png" class="img-thumbnail" >
 </div>
 
 ## What is Club Hub
@@ -25,8 +25,8 @@ summary: "A web application designed to connect and engage UH Mānoa students wi
 As a member of a five-person team, my contributions for this project involved implementing the UI design for all of the club pages and components, creating the club info pages, and managing the page routing. To begin, based on the initial mock design created by my partners, I implemented and managed the overall layout and design for all of the pages and compents, such as the club cards, navbar, and landing page. Additionally, I focused on developing the club info pages, ensuring that they page  fetched the appropriate club data from the collections based on the URL. Furthermore, I took charge of managing the page routing using React Router, creating dynamic routes for club pages based on their unique slugs and ensuring smooth navigation throughout the application and implmenting the appropriate protections for each route to prevent unauthroized access to certain pages. Throughout the project, I actively participated in team meetings, provided constructive feedback to my teammates, and iterated on the design and functionality based on user feedback and testing results, ultimately contributing to the successful completion of the project.
 
 <div class="text-center p-4">
-  <img width="350px" src="../img/clubhub/clubCard.png" class="img-thumbnail" >
-  <img width="350px" src="../img/clubhub/clubInfo.png" class="img-thumbnail" >
+  <img height="500px" src="../img/clubhub/clubCard.png" class="img-thumbnail" >
+  <img height="500px" src="../img/clubhub/clubInfo.png" class="img-thumbnail" >
 </div>
 
 ## Lessons learned
