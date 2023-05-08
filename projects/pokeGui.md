@@ -4,7 +4,7 @@ type: project
 image: img/pokeGUI/pokeball.png
 title: "Pokemon GUI"
 date: 2021
-published: true
+published: false
 labels:
   - Java
   - GUI
