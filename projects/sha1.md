@@ -9,7 +9,7 @@ labels:
   - C
   - Vim
   - SHA-1
-summary: "An implemention of the NIST Secure Hash Algorithm (SHA-1) using c for the purpose of taking in and encript text files."
+summary: "An implementation of the NIST Secure Hash Algorithm (SHA-1) using c for the purpose of taking in and encrypt text files."
 ---
 
 <div class="text-center p-4">
@@ -26,7 +26,7 @@ As this was an individual project, the entirety of the code was written on my ow
 
 ## Sample Code
 
-Here is some code of a helper function that assits in perfroming bit-wise operations:
+Here is some code of a helper function that assists in performing bit-wise operations:
 
 ```java
 unsigned int f(unsigned int t, unsigned int B, unsigned C, unsigned D){
