@@ -11,7 +11,7 @@ labels:
   - Coding Standards
 ---
 
-<img width="600px" class="text-center p-4" src="../img/code.png">
+<img width="600px" class="text-center p-4" src="../img/code.jpg">
 
 As this semester draws to a close, I cannot help but reminisce about the numerous fundamental concepts in software engineering that I have learned about during these past few months. Throughout this enlightening journey, I have delved into a wide range of topics, which have not only broadened my understanding of software engineering but also equipped me with the necessary skills to tackle problems that go beyond web application development. The coursework has emphasized the importance of rigorous methodologies, sound design principles, and efficient practices, all of which are critical in developing high-quality software that meets the needs of users and organizations alike. 
 
