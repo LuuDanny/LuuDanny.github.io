@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Pokemon PvP | Danny Luu | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/LuuDanny.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Danny Luu | Professional Portfolio">
+    <meta property="og:url" content="https://LuuDanny.github.io/projects/pokePvP.html">
+    <meta property="og:title" content="Pokemon PvP | Danny Luu | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/LuuDanny.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Pokemon PvP | Danny Luu | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Danny Luu</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Pokemon PvP</h1>
+ <div class="text-center p-4">
+  <img width="350px" src="../img/pokePVP/pokePvP.png" class="img-thumbnail" />
+</div>
+
+<h2 id="what-is-pokemon-pvp">What is Pokemon PvP</h2>
+
+<p>Pokemon is a popular media franchise centered around fictional creatures called “Pokemon”, which humans, known as Pokemon Trainers, catch and train to battle each other for sport. Our goal is to create a text-based implementation of the Pokemon battle system using Java. Our program boasts an authentic battle system that closely simulates the gameplay mechanics of the classic Pokemon games. The game was divided into three phases: Game Setup, Battling, and Game Over. In the first phase, players will choose one Pokemon to battle with and the program will randomly choose which player goes first. In the second phase, the two players will alternate turns, entering commands to attack until one Pokemon “faints” (reaches 0 HP). The players will have the option to perform fast attack, special attack, or pass to build energy. A player must “pass” at least three times in order to build up energy for a special attack. In the final phase, once a player’s Pokemon has fainted, the game will end and a congratulatory message will be printed to the winner.</p>
+
+<h2 id="responsibilities-and-lessons">Responsibilities and Lessons</h2>
+
+<p>As the lead programmer for this project, my role entailed the development of key components such as player creation, pokemon selection, and the main battle loop. To begin, I collaborated with my team members to establish a comprehensive project design and subsequently assigned tasks based on individual strengths and availability. or my portion of the work, I started by constructing the necessary player and pokemon objects, which served as the foundation for the program. Subsequently, I implemented the overall structure for the three battle phases, providing clear guidelines for my team members to efficiently integrate their contributions. Once completed, I focused on the implementation of the player creation, pokemon selection, and main battle loop. As the project progressed, it was my responsibility to consolidate the various components into a seamless and cohesive program.</p>
+
+<p>This project not only served as a valuable opportunity to solidify my understanding of Java, but also provided me with invaluable experience in collaborating with others on a shared project. I am proud of the final outcome and the skills and knowledge I have gained through this experience.</p>
+
+<h2 id="sample-code">Sample Code</h2>
+
+<p>Here is some code of a helper function that offers players the choice to reselect their pokemon if they so choose so:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kd">public</span> <span class="kd">static</span> <span class="nc">Pokemon</span> <span class="nf">reChoose</span><span class="o">(</span><span class="nc">Pokemon</span> <span class="n">p</span><span class="o">)</span> <span class="o">{</span>
+      
+      <span class="kt">boolean</span> <span class="n">reChoose</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
+      <span class="nc">String</span> <span class="n">yesNo</span> <span class="o">=</span> <span class="s">""</span><span class="o">;</span>
+      <span class="nc">Pokemon</span> <span class="n">poke</span> <span class="o">=</span> <span class="n">p</span><span class="o">;</span>
+      <span class="nc">Scanner</span> <span class="n">userIn</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Scanner</span><span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">in</span><span class="o">);</span>
+      
+      <span class="k">while</span> <span class="o">(</span><span class="n">reChoose</span><span class="o">)</span> <span class="o">{</span>
+         <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Would you like to reroll your pokemon? Y/N"</span><span class="o">);</span>
+         <span class="n">yesNo</span> <span class="o">=</span> <span class="n">userIn</span><span class="o">.</span><span class="na">nextLine</span><span class="o">();</span>
+         <span class="n">yesNo</span> <span class="o">=</span> <span class="n">yesNo</span><span class="o">.</span><span class="na">toUpperCase</span><span class="o">().</span><span class="na">trim</span><span class="o">();</span>
+         
+         <span class="c1">// Switch based on player's choise</span>
+         <span class="k">switch</span> <span class="o">(</span><span class="n">yesNo</span><span class="o">)</span> <span class="o">{</span>
+            <span class="k">case</span> <span class="s">"Y"</span><span class="o">:</span> <span class="c1">//Reroll Pokemon</span>
+               <span class="n">poke</span> <span class="o">=</span> <span class="n">choosePokemon</span><span class="o">();</span> 
+               <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">poke</span><span class="o">);</span>          
+               <span class="k">break</span><span class="o">;</span>
+            <span class="k">case</span> <span class="s">"N"</span><span class="o">:</span> <span class="c1">//Keep Pokemon</span>
+               <span class="n">reChoose</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+               <span class="k">break</span><span class="o">;</span>
+            <span class="k">default</span><span class="o">:</span> <span class="c1">//Invalid choice</span>
+               <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"\n=======Invalid Menu Choice======="</span><span class="o">);</span>
+               <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Please enter Y/N"</span><span class="o">);</span>
+               <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"=================================\n"</span><span class="o">);</span>
+               <span class="k">break</span><span class="o">;</span>
+         <span class="o">}</span> <span class="c1">// Closes Switch</span>
+      <span class="o">}</span> <span class="c1">// Closes while loop</span>
+      <span class="k">return</span> <span class="n">poke</span><span class="o">;</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>Source : <a href="https://github.com/LuuDanny/Pokemon-PvP">GitHub</a>.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

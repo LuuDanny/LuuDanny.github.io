@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Sweet Solutions: Cookie Cutter Code Patterns | Danny Luu | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/LuuDanny.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Danny Luu | Professional Portfolio">
+    <meta property="og:url" content="https://LuuDanny.github.io/essays/Sweet%20Solutions.html">
+    <meta property="og:title" content="Sweet Solutions: Cookie Cutter Code Patterns | Danny Luu | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/LuuDanny.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Sweet Solutions: Cookie Cutter Code Patterns | Danny Luu | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Danny Luu</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Sweet Solutions: Cookie Cutter Code Patterns</h1>
+  <span class="date">24 Apr 2023</span>
+  <hr>
+  <h2 id="to-cookies-or-not-to-cookie">To Cookies or Not To Cookie</h2>
+
+<p><img width="300px" class="rounded float-start pe-4" src="../img/cookie.png" /></p>
+
+<p>In the realm of software development, we often find ourselves in a digital kitchen, mixing ingredients to create delectable programs that meet specific requirements. Picture yourself in a kitchen, about to bake a batch of digital cookies for a project. You have a variety of cookie cutters at your disposal, each designed to create a specific shape with precision and ease. Just as these cookie cutters save time and energy by eliminating the need to handcraft each cookie, design patterns streamline the coding process, allowing us to craft consistent, high-quality products with minimal effort. They act as the “cookie cutters” of the coding world, each tailored for a specific purpose, enabling developers to create efficient, maintainable, and flexible code with ease.</p>
+
+<p>Of course, while design patterns are an invaluable resources for streamlining the coding process, it’s unrealistic to expect to write professional-level code with just design patterns alone. Having a vast collection of cookie cutters may seem impressive, but it’s impossible to make every cookie shape imaginable with just the available cutters. Cookie cutters serve as templates, limiting what can be produced, much like design patterns. While design patterns can inspire solutions, they’re not a one-size-fits-all solution, and simply utilizing a design pattern doesn’t automatically mean the most efficient code possible. Therefore, developers must balance the use of design patterns with creativity and innovation to find the best possible solutions for each unique problem.</p>
+
+<h2 id="design-patterns-in-practice">Design Patterns in practice</h2>
+
+<p>As a beginner in software engineering, I have found that almost every programming problem I encounter has already been addressed, and there is usually an established design pattern available to solve it. This especially the case with the current project I’m working on as my team and I are developing an application that helps users discover clubs at the University of Hawaii Manoa that align with their personal interests. An issue that we had was that we needed a way of maintaining a data collection that dynamically updates the client side and some way of making only parts of said data collection available, depending on its use case such as bookmarking clubs. A key component and major design pattern that we utilized for this was the Publish-Subscribe pattern; A fundamental design pattern in Meteor. The Publish-Subscribe pattern allowed us to establish clear communication between the data sources, or publishers, and the event bus that relays new state changes to the appropriate subscribers. With this pattern, we were able to ensure that only the necessary parts of the data collection were made available to each subscriber.</p>
+
+<p>Overall, design patterns are a valuable tool for software engineers, offering time-tested “cookie cutter” solutions to recurring problems. By leveraging these patterns, we can create code in a more efficient manner as we no longer have to spend the time to make everything from scratch. As I continue to grow in my software engineering journey, I look forward to discovering new and exciting design patterns to incorporate into my projects.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
